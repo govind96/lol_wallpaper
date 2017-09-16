@@ -16,6 +16,6 @@ for x in range(0, height, 120):
         draw.text((x,y), "LoL", (255,255,0), font=font)
 
 draw = ImageDraw.Draw(img)      
-img.save("/home/govind/Pictures/you_can_not_escape.png")
+img.save("/home/user/Pictures/you_can_not_escape.png")
 
-os.system("gsettings set org.gnome.desktop.background picture-uri file:///home/govind/Pictures/you_can_not_escape.png")
+os.system("gsettings set org.mate.background picture-filename /home/user/Pictures/you_can_not_escape.png")
