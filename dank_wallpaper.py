@@ -23,4 +23,4 @@ for x in range(0, height, 120):
         draw.text((x,y), "LoL", (r, g, b), font = font)
 
 draw = ImageDraw.Draw(img)      
-img.save("/home/user/Pictures/you_can_not_escape.png")
+img.save("/home/user/.config/you_can_not_escape.png")
